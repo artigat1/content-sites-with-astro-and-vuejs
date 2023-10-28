@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "content-sites-with-astro-vue"
+  }
+}
