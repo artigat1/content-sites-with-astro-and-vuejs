@@ -14,7 +14,7 @@ import Astronaut from '../components/Astronaut.vue';
 	</head>
 	<body>
 		<Header title={SITE_TITLE} />
-		<main>
+		<main transition:animate="slide">
 			<h1><Astronaut client:idle /> Hello, Astronaut!</h1>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
